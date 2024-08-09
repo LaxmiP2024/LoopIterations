@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- WRITE A PROGRAM TO PRINT THE SUM OF MAX AND MIN IN A NUMBER -->
+    <script>
+        num=prompt("Enter a number: ");
+        min=num[0];
+        max=num[0];
+        for(i of num){
+            min=(i<min)?i:min;
+            max=(i>max)?i:max;
+        }
+        console.log("SUM OF MAX AND MIN IN A NUMBER:" +Number (min)+Number (max))
+    </script>
+
+</body>
+</html>
